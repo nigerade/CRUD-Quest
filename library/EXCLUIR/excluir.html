@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width">
+    <title>Trivia Game - Delete Question</title>
+    <link rel="stylesheet" href="./excluir.css">
+</head>
+
+<body>
+
+    <header class="header">
+        <nav class="nav">
+            <ul class="list">
+                <li class="li__items"><h1 class="title">Trivia Game - Delete Question</h1></li>
+                <li class="li__items">
+                    <a href="../PAGINA_INICIAL/index.html" class="back-link">Back to Main</a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+
+    <main class="main">
+        <section class="delete-question">
+            <div class="container">
+                <form class="formDelete" action="">
+                    <legend>Delete Question</legend>
+
+                    <label class="fa__labels" for="select-question">Select Question to Delete:</label>
+                    <select id="select-question" name="select-question" class="select-question" required>
+                        <option value="" selected disabled>Select a Question</option>
+                        <!-- Perguntas serão carregadas dinamicamente com base no tema escolhido -->
+                        <!-- Exemplo de perguntas -->
+                        <option value="question1">Question 1</option>
+                        <option value="question2">Question 2</option>
+                        <option value="question3">Question 3</option>
+                    </select>
+
+                    <div class="fa__container">
+                        <input id="fa__button--delete" type="submit" class="fa__button" value="Delete" data-buttonDelete>
+                        <a href="../PAGINA_INICIAL/index.html" class="back-button">Back</a>
+                    </div>
+                </form>
+            </div>
+        </section>
+    </main>
+
+</body>
+
+</html>

@@ -1,0 +1,99 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    outline: 0px;
+    font-size: 16px;
+    text-decoration: none;
+    text-align: center;
+    line-height: 2;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    overflow-x: hidden;
+}
+
+header {
+    height: 60px;
+    margin-bottom: 40px;
+    box-shadow: 2px 2px 15px;
+}
+
+.list {
+    align-items: center;
+    background-color: #111;
+    display: flex;
+    height: 60px;
+    justify-content: space-between;
+    list-style: none;
+    padding: 0 20px;
+}
+
+.title {
+    color: #dedede;
+    font-size: 1.5rem;
+}
+
+.back-link {
+    color: #fff;
+    font-weight: bold;
+    text-decoration: none;
+    transition: color 0.3s;
+}
+
+.back-link:hover {
+    color: #ccc;
+}
+
+.container {
+    background-color: white;
+    border-radius: 10px;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    font-weight: 700;
+    height: 380px;
+    padding: 20px;
+    row-gap: 3px;
+    width: 240px;
+    margin: auto; /* Adicionando esta linha para centralizar o contêiner */
+    justify-content: center; /* Adicionando esta linha para centralizar verticalmente o conteúdo */
+}
+
+.fa__labels {
+    font-weight: 600;
+    margin-top: 10px;
+}
+
+.fa__container {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 2rem;
+}
+
+.fa__button {
+    border: 1px solid;
+    border-radius: 10px;
+    font-weight: 600;
+    padding: 3px;
+    width: 45%;
+    transition: transform 0.3s;
+}
+
+.fa__button:hover {
+    transform: scale(1.1);
+}
+
+#fa__button--add {
+    background-color: rgb(0, 170, 0);
+}
+
+#fa__button--close {
+    background-color: #000; /* Alterado para cinza */
+    color: #fff;
+}
+
+legend {
+    font-size: 1.9rem;
+    margin-top: 5rem;
+}

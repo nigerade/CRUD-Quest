@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width">
+    <title>Trivia Game - Update Question</title>
+    <link rel="stylesheet" href="./atualizar.css">
+</head>
+
+<body>
+
+    <header class="header">
+        <nav class="nav">
+            <ul class="list">
+                <li class="li__items"><h1 class="title">Trivia Game - Update Question</h1></li>
+                <li class="li__items">
+                    <a href="../PAGINA_INICIAL/index.html" class="back-link">Back to Main</a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+
+    <main class="main">
+        <section class="update-question">
+            <div class="container">
+                <form class="formUpdate" action="../PERGUNTA_SELECIONADA/perguntaSelecionada.html">
+                    <legend>Update Question</legend>
+
+                    <label class="fa__labels" for="select-theme">Select Theme:</label>
+                    <select id="select-theme" name="select-theme" class="select-theme" required>
+                        <option value="" selected disabled>Select a Theme</option>
+                        <option value="world">World</option>
+                        <option value="arts">Arts</option>
+                        <option value="technology">Technology</option>
+                        <option value="sports">Sports</option>
+                    </select>
+
+                    <label class="fa__labels" for="select-question">Select Question to Update:</label>
+                    <select id="select-question" name="select-question" class="select-question" required>
+                        <option value="" selected disabled>Select a Question</option>
+                        <option value="q1">What is the capital of France?</option>
+                        <option value="q2">Who painted the Mona Lisa?</option>
+                        <option value="q3">What year was the World Wide Web invented?</option>
+                    </select>
+
+                    <div class="fa__container">
+                        <button type="submit" class="fa__button">Update</button>
+                        <a href="../PAGINA_INICIAL/index.html" class="back-button">Back</a>
+                    </div>
+                </form>
+            </div>
+        </section>
+    </main>
+
+</body>
+
+</html>
