@@ -77,8 +77,9 @@ header {
     border-radius: 10px;
     font-weight: 600;
     padding: 10px 20px; /* Aumentando o padding para tornar os botões mais visíveis */
-    width: 45%;
     transition: transform 0.3s;
+    background-color: #32CD32;
+
 }
 
 .fa__button:hover,

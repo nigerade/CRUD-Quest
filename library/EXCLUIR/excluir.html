@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width">
-    <title>Trivia Game - Delete Question</title>
+    <title>Quest - Delete Question</title>
     <link rel="stylesheet" href="./excluir.css">
 </head>
 
@@ -14,7 +14,7 @@
     <header class="header">
         <nav class="nav">
             <ul class="list">
-                <li class="li__items"><h1 class="title">Trivia Game - Delete Question</h1></li>
+                <li class="li__items"><h1 class="title">Quest - Delete Question</h1></li>
                 <li class="li__items">
                     <a href="../PAGINA_INICIAL/index.html" class="back-link">Back to Main</a>
                 </li>
@@ -27,6 +27,15 @@
             <div class="container">
                 <form class="formDelete" action="">
                     <legend>Delete Question</legend>
+
+                    <label class="fa__labels" for="select-theme">Select Theme:</label>
+                    <select id="select-theme" name="select-theme" class="select-theme" required>
+                        <option value="" selected disabled>Select a Theme</option>
+                        <option value="world">World</option>
+                        <option value="arts">Arts</option>
+                        <option value="technology">Technology</option>
+                        <option value="sports">Sports</option>
+                    </select>
 
                     <label class="fa__labels" for="select-question">Select Question to Delete:</label>
                     <select id="select-question" name="select-question" class="select-question" required>

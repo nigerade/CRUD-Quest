@@ -77,7 +77,6 @@ header {
     border-radius: 10px;
     font-weight: 600;
     padding: 10px 20px; /* Aumentando o padding para tornar os botões mais visíveis */
-    width: 45%;
     transition: transform 0.3s;
 }
 
@@ -109,4 +108,13 @@ legend {
     border-radius: 10px;
     width: 100%;
     margin-top: 20px; /* Aumentando a margem superior */
+}
+
+.select-theme,
+.select-question {
+    padding: 10px;
+    border-radius: 10px;
+    width: 100%;
+    margin-bottom: 3rem; 
+    margin-top: 1rem;
 }

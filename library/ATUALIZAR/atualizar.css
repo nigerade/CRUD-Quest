@@ -56,19 +56,19 @@ header {
     padding: 20px;
     row-gap: 15px; /* Aumentando o espaçamento entre os elementos */
     width: 320px; /* Ajustando a largura para melhor espaçamento */
-    margin: 20px auto; /* Centralizando e adicionando espaço ao redor */
+    margin: auto; /* Centralizando e adicionando espaço ao redor */
     justify-content: center; /* Adicionando esta linha para centralizar verticalmente o conteúdo */
 }
 
 .fa__labels {
     font-weight: 600;
-    margin-top: 10px;
+    margin-top: 2rem;
 }
 
 .fa__container {
     display: flex;
     justify-content: space-between;
-    margin-top: 20px; /* Aumentando a margem superior */
+    margin-top: 2rem; /* Aumentando a margem superior */
 }
 
 .fa__button,
@@ -77,8 +77,8 @@ header {
     border-radius: 10px;
     font-weight: 600;
     padding: 10px 20px; /* Aumentando o padding para tornar os botões mais visíveis */
-    width: 45%;
     transition: transform 0.3s;
+    background-color: #32CD32;
 }
 
 .fa__button:hover,
@@ -106,4 +106,5 @@ legend {
     border-radius: 10px;
     width: 100%;
     margin-top: 20px; /* Aumentando a margem superior */
+    margin-bottom: 2rem;
 }

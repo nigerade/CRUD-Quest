@@ -48,8 +48,9 @@ header {
 
 .options {
     display: flex;
-    justify-content: space-around;
-    margin-bottom: 20px;
+    align-items: center;
+    justify-content: center;
+    gap: 1.5rem;
 }
 
 .option-btn {
@@ -59,7 +60,7 @@ header {
     color: #fff;
     cursor: pointer;
     font-size: 1rem;
-    padding: 10px 20px;
+    padding: 1rem;
     transition: background-color 0.3s;
 }
 
