@@ -52,12 +52,10 @@ header {
     display: flex;
     flex-direction: column;
     font-weight: 700;
-    height: 480px;
     padding: 20px;
     width: 240px;
     margin: auto; /* Adicionando esta linha para centralizar o contêiner */
     justify-content: center; /* Adicionando esta linha para centralizar verticalmente o conteúdo */
-
 }
 
 .fa__labels {
@@ -95,7 +93,7 @@ header {
 
 legend {
     font-size: 1.6rem;
-    margin-top: 5rem;
+    margin-bottom: 3rem;
 }
 
 .select-theme,
@@ -103,4 +101,10 @@ legend {
     padding: 10px;
     width: 100%;
     margin-top: 20px; /* Aumentando a margem superior */
+    border-radius: 10px;
+}
+
+input {
+    border-radius: 10px;
+    border: 1px solid #000;
 }
