@@ -25,6 +25,8 @@ header {
     justify-content: space-between;
     list-style: none;
     padding: 0 20px;
+    text-align: center;
+    justify-content: center;
 }
 
 .title {

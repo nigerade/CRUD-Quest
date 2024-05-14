@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width">
-    <title>Quest - Delete Question</title>
+    <title>Quest - Excluir Questão</title>
     <link rel="stylesheet" href="./excluir.css">
 </head>
 
@@ -14,9 +14,9 @@
     <header class="header">
         <nav class="nav">
             <ul class="list">
-                <li class="li__items"><h1 class="title">Quest - Delete Question</h1></li>
+                <li class="li__items"><h1 class="title">Quest - Excluir Questão</h1></li>
                 <li class="li__items">
-                    <a href="../PAGINA_INICIAL/index.html" class="back-link">Back to Main</a>
+                    <a href="../PAGINA_INICIAL/index.html" class="back-link">Voltar para Home</a>
                 </li>
             </ul>
         </nav>
@@ -26,30 +26,30 @@
         <section class="delete-question">
             <div class="container">
                 <form class="formDelete" action="">
-                    <legend>Delete Question</legend>
+                    <legend>Excluir Questão</legend>
 
-                    <label class="fa__labels" for="select-theme">Select Theme:</label>
+                    <label class="fa__labels" for="select-theme">Escolha um tema</label>
                     <select id="select-theme" name="select-theme" class="select-theme" required>
-                        <option value="" selected disabled>Select a Theme</option>
+                        <option value="" selected disabled>Escolha um tema</option>
                         <option value="world">World</option>
                         <option value="arts">Arts</option>
                         <option value="technology">Technology</option>
                         <option value="sports">Sports</option>
                     </select>
 
-                    <label class="fa__labels" for="select-question">Select Question to Delete:</label>
+                    <label class="fa__labels" for="select-question">Escolha uma questão</label>
                     <select id="select-question" name="select-question" class="select-question" required>
-                        <option value="" selected disabled>Select a Question</option>
+                        <option value="" selected disabled>Escolha uma questão</option>
                         <!-- Perguntas serão carregadas dinamicamente com base no tema escolhido -->
                         <!-- Exemplo de perguntas -->
-                        <option value="question1">Question 1</option>
-                        <option value="question2">Question 2</option>
-                        <option value="question3">Question 3</option>
+                        <option value="question1">Questão 1</option>
+                        <option value="question2">Questão 2</option>
+                        <option value="question3">Questão 3</option>
                     </select>
 
                     <div class="fa__container">
                         <input id="fa__button--delete" type="submit" class="fa__button" value="Delete" data-buttonDelete>
-                        <a href="../PAGINA_INICIAL/index.html" class="back-button">Back</a>
+                        <a href="../PAGINA_INICIAL/index.html" class="back-button">Voltar</a>
                     </div>
                 </form>
             </div>
